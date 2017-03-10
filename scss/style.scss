@@ -1,0 +1,46 @@
+/* ==========================================================================
+
+// Base Stylesheet - http://getbase.org
+// Author: Matthew Hartman - http://www.matthewhartman.com.au/
+// Version: 3.1.3 - Last Updated: June 18, 2016
+
+========================================================================== */
+
+/*
+Theme Name: HTML to WP
+Theme URI: http://underscores.me/
+Author: Andy Leverenz
+Author URI: https://coupleofcreatives.com
+Description: A theme based on a tutorial from HTML to WordPress
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: html-to-wp
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+HTML to WP is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+// Variables and Colors
+@import "styles/variables-colors";
+
+// Import Base
+@import "base";
+
+// Website Styles
+@import "styles/components";
+@import "styles/header";
+@import "styles/about";
+@import "styles/ingredients";
+@import "styles/menu";
+@import "styles/reviews";
+@import "styles/reservations";
+@import "styles/footer";
+
+// Import Base Helpers
+@import "base/_helpers";
