@@ -1,45 +1,63 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+# Web-Crunch - HTML to WordPress Screencast Tutorial
 
-_s
-===
+Hi. This repo is a home for the end theme I create in a small series of videos that teach you how to take a free custom HTML template and translated it to a dynamic WordPress theme. 
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+#### Download the HTML template
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
-
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/extras.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample CSS layouts in `layouts/` for a sidebar on either side of your content.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+https://onepagelove.com/restaurant-template
 
 Getting Started
 ---------------
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme. 
 
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a five-step find and replace on the name in all the templates.
+From there check out the videos on [YouTube](https://youtube.com/c/webcrunch) or [Web-Crunch.com](https://web-crunch.com) to follow along. A like, comment, subscribe, or any other feedback you have are greatly appreciated!
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
+## Features
 
-OR
++ Fully responsive one page template
++ Logically constructed UI
++ Minimal CSS
++ Built with LESS
++ Clean layout
++ Full 12 column grid support
++ Retina ready (SVG - vector based)
++ Beautiful animations and transitions
++ Minimal JavaScript
++ Highly optimised for slow internet connections
 
-* Search for: `'_s'` and replace with: `'megatherium-is-awesome'`
-* Search for: `_s_` and replace with: `megatherium_is_awesome_`
-* Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium-is-awesome` in style.css.
-* Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium_is_Awesome</code>
-* Search for: `_s-` and replace with: `megatherium-is-awesome-`
+## Technologies Used
 
-Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
++ HTML & CSS built with Base - http://getbase.org
++ WOW.js for revealing animations on scroll - http://mynameismatthieu.com/WOW/
++ Web Font Loader for loading fonts last - https://github.com/typekit/webfontloader
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+## Browser Support
 
-Good luck!
++ Internet Explorer 9+
++ Google Chrome
++ Safari
++ Firefox
+
+## Images
+
++ Food images used in the design come from Foodsie Feed - http://foodiesfeed.com
++ Subtle patterns for some of the background patterns in the design - http://subtlepatterns.com/
+
+## Fonts
+
+Fonts used in the design are from Google Open Fonts:
+
++ Open Sans - https://www.google.com/fonts/specimen/Open+Sans
++ Yeseva One Regular - https://www.google.com/fonts/specimen/Yeseva+One
+
+## Icons
+
++ Font Awesome - http://fontawesome.github.io/Font-Awesome/
+
+## Thank You & Credits
+
+Big thank you to Christos Pantazis from Oxygenna for the FREE PSD design:
+http://www.oxygenna.com/freebies/free-one-page-psd-template
+
+Thank you to [Matthew Hartman](http://matthewhartman.com.au/) for the FREE HTML template
