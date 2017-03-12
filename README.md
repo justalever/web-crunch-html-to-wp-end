@@ -2,9 +2,10 @@
 
 Hi. This repo is a home for the end theme I create in a small series of videos that teach you how to take a free custom HTML template and translated it to a dynamic WordPress theme. 
 
-#### Download the HTML template
+#### Download Starter HTML
 
-https://onepagelove.com/restaurant-template
+[HTML to WordPress "Start"](https://github.com/justalever/web-crunch-html-to-wp-start)
+
 
 Getting Started
 ---------------
